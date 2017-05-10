@@ -16,6 +16,7 @@ class StudController extends Controller
         $s=new \App\Stud;
         $studenti=$s->all();
         return print_r(json_decode($studenti,true));
+        
        // return $studenti;
     }
 }
